@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> 4 plagas de oruro </title>
+<style>
+body{
+    margin:0;
+    background-color:darkred;
+    text-align:center;
+}
+
+/* ENCABEZADO */
+.encabezado{
+    background-color:red;
+    padding:40px;
+    position:relative;
+    color:white;
+    font-family:Georgia;
+}
+
+.escudo-izq {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 100px;
+}
+
+.escudo-der {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 100px;
+}
+
+/* BOTONES VISUALES */
+.menu{
+    background-color:black;
+    padding:15px;
+}
+
+.menu a{
+    text-decoration:none;
+}
+
+.boton{
+    display:inline-block;
+    background-color:red;
+    color:white;
+    padding:10px 25px;
+    margin:10px;
+    border-radius:8px;
+    font-weight:bold;
+    font-family:Georgia;
+    cursor:pointer;
+}
+
+.boton:hover{
+    background-color:gold;
+    color:black;
+}
+
+.seccion{
+    padding:60px;
+    color:white;
+}
+
+.historia-texto{
+    background-color:white;
+    color:black;
+    padding:20px;
+    border-radius:10px;
+    text-align:justify;
+}
+
+/*FORMULARIO */
+.formulario{
+    background-color:white;
+    colo:black;
+    width:60%;
+    margin:auto;
+    padding:30px;
+    border-radius.15px;
+    text-align:left;
+}
+
+·formulario input,
+·formulario textarea{
+    widht:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid gray;
+    font-size:16px;;
+
+.boton-enviar{
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton-enviar:hover{
+    background-color: darkgreen;
+}
+
+.boton-whatsapp{
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.boton-whatsapp:hover{
+    background-color: #128C7E;
+}
+   
+</style>
+</head>
+
+<body>
+
+<div class="encabezado">
+    <img src="oruru.jpg" class="escudo-izq">
+    <img src="descarg.jpg" class="escudo-der">
+    <h1>plagas</h1>
+</div>
+
+
+<!-- MENÚ SOLO VISUAL -->
+<div class="menu">
+    <a href="#inicio"><div class="boton">INICIO</div></a>
+    <a href="#historia"><div class="boton">HISTORIA</div></a>
+    <a href="#imágenes"><div class="boton">IMÁGENES</div></a>
+    <a href="#mapa"><div class="boton">MAPA</div></a>
+    <a href="#contacto"><div class="boton">CONTÁCTANOS</div></a>
+</div>
+
+<!-- SECCIÓN INICIO -->
+<div id="inicio" class="seccion">
+    <h2>Inicio</h2>
+    <p>El poder de tus brazos Oruro</p>
+    <img src="plagas.jpg" width="800">
+</div>
+
+<!-- SECCIÓN HISTORIA -->
+<div id="historia" class="seccion">
+    <h2>Historia</h2>
+<p class="historia-texto" style="font-size:20px;">La leyenda de las Cuatro Plagas de Oruro relata cómo la deidad maligna Huari envió una víbora, un sapo, un lagarto y hormigas gigantes para destruir al pueblo Uru. Una Ñusta (virgen andina), identificada luego con la Virgen del Socavón, petrificó a las criaturas, convirtiéndolas en formaciones geográficas, salvando a los habitantes y originando el Carnaval de Oruro.10:05 11/03/202610:05 11/03/202610:05 11/03/202610:05 11/03/202610:05 11/03/2026
+La Víbora (Sur): Representada en la zona de Cala-Cala, dividida en dos por la Ñusta.
+El Sapo (Norte): Localizado en la zona norte de la ciudad, convertido en piedra.
+El Lagarto (Este): Sus restos forman la colina de la zona sur, con la laguna de sangre.
+Las Hormigas (Oeste): Convertidas en dunas de arena en los arenales de Cochiraya.</p>
+</div>
+
+<!-- SECCIÓN IMAGENES-->
+<div id="imágenes" class="sección">
+    <h2>Video de 4plagas</h2>
+
+    <video width="800" controls>
+        <source src="4plagas.mp4" type="video/mp4">
+        Tu navegafor no soporta el video 
+    </video>
+
+</div>
+
+<!--SECCIÓN MAPA-->
+<div id="mapa" class="sección">
+    <h2>Mapa de 4 plagas</h2>
+    <h2>Ubicación del sapo</h2>
+    <div style"background-color:black;padding:20px; border-radius:10px;">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.7650337293285!2d-67.1139721!3d-17.9431099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e2ba127bc20f87%3A0x31b5d4ffb23fadcb!2sPje.%20Sapo%2C%20Oruro!5e0!3m2!1ses-419!2sbo!4v1773238993450!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+</div> 
+
+<!-- SECCIÓN CONTACTO -->
+<div id="contacto" class="seccion">
+    <h2>CONTÁCTANOS</h2>
+
+    <div class="formulario">
+        <label>Nombre:</label>
+        <input type="text" placeholder="Ingrese su nombre">
+
+        <label>Correo electrónico:</label>
+        <input type="email" placeholder="Ingrese su correo">
+
+        <label>Mensaje:</label>
+        <textarea rows="5" placeholder="Escriba su mensaje aquí..."></textarea>
+
+        <button class="boton-enviar">Enviar al Correo</button>
+        <br>
+        <button class="boton-whatsapp">Enviar por WhatsApp</button>
+    </div>
+</div>
+
+</body>
+</html>
